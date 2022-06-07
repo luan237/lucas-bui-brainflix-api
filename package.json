@@ -1,0 +1,14 @@
+{
+  "name": "lucas-bui-brainflix-api",
+  "version": "1.0.0",
+  "description": "Server for BrainFlix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Bui",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
