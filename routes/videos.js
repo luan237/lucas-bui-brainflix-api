@@ -20,6 +20,8 @@ router.route("/videos/:id").get((req, res) => {
 });
 
 router.route("/videos").post((req, res) => {
+  const requestBody = JSON.stringify(req.body);
+  console.log(requestBody);
   const newVideo = {
     id: uuid.v4(),
     title: req.body.title,
