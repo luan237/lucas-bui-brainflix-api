@@ -22,23 +22,25 @@ router.route("/videos/:id").get((req, res) => {
 
 // post new Video
 router.route("/videos").post((req, res) => {
+  console.log(req);
   const newVideo = {
     id: uuid.v4(),
     title: req.body.title,
     channel: "New User",
-    image: "http://localhost:8080/Upload-video-preview.jpg",
+    image: req.body.image,
     description: req.body.description,
     views: 10000,
     likes: 10,
     duration: "5:01",
-    video: "https://www.youtube.com/watch?v=fpoBdxnvlcU",
+    video:
+      "https://project-2-api.herokuapp.com/stream/?api_key=5821f58b-d638-4339-9f50-71d86650f340",
     timestamp: new Date(),
     comments: [],
   };
   videosData.push(newVideo);
-  fs.writeFile("./data/videos.json", JSON.stringify(videosData), (err) => {
-    console.log(err);
-  });
+  // fs.writeFile("./data/videos.json", JSON.stringify(videosData), (err) => {
+  //   console.log(err);
+  // });
   res.status(200).json(newVideo);
 });
 
