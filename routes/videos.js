@@ -37,7 +37,7 @@ const storage = multer.diskStorage({
 // post new Video (with image or default image)
 router
   .route("/videos")
-  .post(multer({ storage: storage }).single("thumbnail"), async (req, res) => {
+  .post(multer({ storage: storage }).single("thumbnail"), (req, res) => {
     let imageName;
     if (req.file) {
       imageName = req.file.originalname;
