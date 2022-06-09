@@ -15,14 +15,14 @@
         "id": "35bba08b-1b51-4153-ba7e-6da76b5ec1b9",
         "name": "Micheal Lyons",
         "comment": "They BLEW the ROOF off at their last event, once everyone started figuring out they were going. This is still simply the greatest opening of an event I have EVER witnessed.",
-        "likes": 0,
+        "likes": 7,
         "timestamp": 1628522461000
       },
       {
         "id": "091de676-61af-4ee6-90de-3a7a53af7521",
         "name": "Gary Wong",
         "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
-        "likes": 0,
+        "likes": 6,
         "timestamp": 1626359541000
       },
       {
@@ -306,96 +306,5 @@
         "timestamp": 1632496261000
       }
     ]
-  },
-  {
-    "id": "88da7e9c-b114-4908-8bc7-34339ec02107",
-    "title": "111",
-    "channel": "New User",
-    "image": "http://localhost:8080/Upload-video-preview.jpg",
-    "description": "111",
-    "views": 10000,
-    "likes": 10,
-    "duration": "5:01",
-    "video": "https://www.youtube.com/watch?v=fpoBdxnvlcU",
-    "timestamp": "2022-06-08T19:46:31.331Z",
-    "comments": []
-  },
-  {
-    "id": "3805c203-2ebd-42de-8c24-5eb2abbd43f0",
-    "title": "333333",
-    "channel": "New User",
-    "image": "http://localhost:8080/Upload-video-preview.jpg",
-    "description": "333333",
-    "views": 10000,
-    "likes": 10,
-    "duration": "5:01",
-    "video": "https://project-2-api.herokuapp.com/stream/?api_key=5821f58b-d638-4339-9f50-71d86650f340",
-    "timestamp": "2022-06-08T20:02:39.830Z",
-    "comments": []
-  },
-  {
-    "id": "2b0db2c2-3d0e-4aed-88ee-99a684362b33",
-    "title": "333",
-    "channel": "New User",
-    "image": "http://localhost:8080/Upload-video-preview.jpg",
-    "description": "333",
-    "views": 10000,
-    "likes": 10,
-    "duration": "5:01",
-    "video": "https://project-2-api.herokuapp.com/stream/?api_key=5821f58b-d638-4339-9f50-71d86650f340",
-    "timestamp": "2022-06-08T20:03:40.952Z",
-    "comments": []
-  },
-  {
-    "id": "9deb026e-bc1e-415c-8f81-ad6a4fb954de",
-    "title": "",
-    "channel": "New User",
-    "image": "http://localhost:8080/Upload-video-preview.jpg",
-    "description": "",
-    "views": 10000,
-    "likes": 10,
-    "duration": "5:01",
-    "video": "https://project-2-api.herokuapp.com/stream/?api_key=5821f58b-d638-4339-9f50-71d86650f340",
-    "timestamp": "2022-06-08T20:10:11.121Z",
-    "comments": []
-  },
-  {
-    "id": "2479f5f9-da74-4f68-83bd-25be6a4154fa",
-    "title": "392847`",
-    "channel": "New User",
-    "image": "http://localhost:8080/Upload-video-preview.jpg",
-    "description": "91283742",
-    "views": 10000,
-    "likes": 10,
-    "duration": "5:01",
-    "video": "https://project-2-api.herokuapp.com/stream/?api_key=5821f58b-d638-4339-9f50-71d86650f340",
-    "timestamp": "2022-06-08T21:05:17.437Z",
-    "comments": []
-  },
-  {
-    "id": "f832a5f0-ac72-4c52-848e-deff7c7e5964",
-    "title": "111111111",
-    "channel": "New User",
-    "image": "http://localhost:8080/Upload-video-preview.jpg",
-    "description": "dfasdfasdf",
-    "views": 10000,
-    "likes": 10,
-    "duration": "5:01",
-    "video": "https://project-2-api.herokuapp.com/stream/?api_key=5821f58b-d638-4339-9f50-71d86650f340",
-    "timestamp": "2022-06-08T21:06:43.936Z",
-    "comments": []
-  },
-  {
-    "id": "b39b0583-c02b-45e8-abbb-1184f942b6e7",
-    "title": "lkasdfj",
-    "channel": "New User",
-    "image": {},
-    "description": "asdlk;fj",
-    "views": 10000,
-    "likes": 10,
-    "duration": "5:01",
-    "video": "https://project-2-api.herokuapp.com/stream/?api_key=5821f58b-d638-4339-9f50-71d86650f340",
-    "timestamp": "2022-06-08T21:08:05.728Z",
-    "comments": []
   }
 ]
